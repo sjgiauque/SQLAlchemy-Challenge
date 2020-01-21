@@ -1,4 +1,5 @@
 ## **SQLAlchemy Homework - Surfs Up!**
+![](https://github.com/sjgiauque/SQLAlchemy-Challenge/blob/master/surfs-up.png)
 
 Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii! To help with your trip planning, you need to do some climate analysis on the area. The following outlines what you need to do.
 
@@ -16,7 +17,7 @@ To begin, use Python and SQLAlchemy to do basic climate analysis and data explor
 - Load the query results into a Pandas DataFrame and set the index to the date column.
 - Sort the DataFrame values by date.
 - Use Pandas to print the summary statistics for the precipitation data.
-
+![](https://github.com/sjgiauque/SQLAlchemy-Challenge/blob/master/precipitation.png)
 
 **Station Analysis**
 - Design a query to calculate the total number of stations.
@@ -28,6 +29,7 @@ To begin, use Python and SQLAlchemy to do basic climate analysis and data explor
 - Filter by the station with the highest number of observations.
 - Plot the results as a histogram with bins=12.
 - Plot the results using the DataFrame plot method.
+![](https://github.com/sjgiauque/SQLAlchemy-Challenge/blob/master/station-histogram.png)
 
 
 ## **Step 2 - Climate App**
@@ -67,7 +69,6 @@ Use Flask jsonify to convert your API data into a valid JSON response object.
 - You may either use SQLAlchemy or pandas's read_csv() to perform this portion.
 - Identify the average temperature in June at all stations across all available years in the dataset. Do the same for December temperature.
 - Use the t-test to determine whether the difference in the means, if any, is statistically significant. Will you use a paired t-test, or an unpaired t-test? Why?
-
 
 **Temperature Analysis II**
 - The starter notebook contains a function called calc_temps that will accept a start date and end date in the format %Y-%m-%d and return the minimum, average, and maximum temperatures for that range of dates.
