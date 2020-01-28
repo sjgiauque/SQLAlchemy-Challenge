@@ -76,4 +76,4 @@ Now that you have completed your initial analysis, design a Flask API based on t
 - Use the calc_temps function to calculate the min, avg, and max temperatures for your trip using the matching dates from the previous year (i.e., use "2017-01-01" if your trip start date was "2018-01-01").
 - Plot the min, avg, and max temperature from your previous query as a bar chart.
 - Use the average temperature as the bar height.
-- Use the peak-to-peak (tmax-tmin) value as the y error bar (yerr).
+- Use the peak-to-peak (tmax-tmin) value as the y error bar (year).
